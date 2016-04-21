@@ -1,0 +1,49 @@
+@prefix grib2-core: <http://codes.wmo.int/grib2/schema/core/> .
+@prefix grib2-parameter: <http://codes.wmo.int/grib2/schema/parameter/> .
+@prefix ssd:   <http://www.w3.org/ns/sparql-service-description#> .
+@prefix dgu:   <http://reference.data.gov.uk/def/reference/> .
+@prefix vann:  <http://purl.org/vocab/vann/> .
+@prefix vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix qudt-quantity: <http://qudt.org/vocab/quantity#> .
+@prefix common-core: <http://codes.wmo.int/common/schema/core/> .
+@prefix qudt:  <http://qudt.org/schema/qudt#> .
+@prefix version: <http://purl.org/linked-data/version#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix time:  <http://www.w3.org/2006/time#> .
+@prefix qudt-dimension: <http://qudt.org/vocab/dimension#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix api:   <http://purl.org/linked-data/api/vocab#> .
+@prefix ui:    <http://purl.org/linked-data/registry-ui#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix bufr4-core: <http://codes.wmo.int/bufr4/schema/core/> .
+@prefix prov:  <http://www.w3.org/ns/prov#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix qudt-unit: <http://qudt.org/vocab/unit#> .
+@prefix void:  <http://rdfs.org/ns/void#> .
+@prefix qb:    <http://purl.org/linked-data/cube#> .
+@prefix dct:   <http://purl.org/dc/terms/> .
+@prefix reg:   <http://purl.org/linked-data/registry#> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix common-unit: <http://codes.wmo.int/common/schema/unit/> .
+@prefix skos:  <http://www.w3.org/2004/02/skos/core#> .
+@prefix cc:    <http://creativecommons.org/ns#> .
+@prefix ldp:   <http://www.w3.org/ns/ldp#> .
+
+<http://codes.wmo.int/grib2/codeflag/4.2/0-0-10>
+        a                <http://codes.wmo.int/def/grib2/Parameter> , skos:Concept ;
+        rdfs:label       "Latent heat net flux"@en ;
+        <http://codes.wmo.int/def/common/edition>
+                <http://codes.wmo.int/codeform/grib2> ;
+        <http://codes.wmo.int/def/common/unit>
+                <http://codes.wmo.int/common/unit/W_m-2> ;
+        <http://codes.wmo.int/def/grib2/category>
+                <http://codes.wmo.int/grib2/codeflag/4.1/0-0> ;
+        <http://codes.wmo.int/def/grib2/discipline>
+                <http://codes.wmo.int/grib2/codeflag/0.0/0> ;
+        <http://codes.wmo.int/def/grib2/parameter>
+                11 ;
+        <http://metarelate.net/vocabulary/index.html#identifier>
+                <http://codes.wmo.int/def/grib2/category> , <http://codes.wmo.int/def/common/edition> , <http://codes.wmo.int/def/grib2/parameter> , <http://codes.wmo.int/def/grib2/discipline> ;
+        dct:description  "Latent heat net flux"@en ;
+        skos:prefLabel   "Latent heat net flux"@en .
